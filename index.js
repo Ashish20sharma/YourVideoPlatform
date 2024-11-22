@@ -14,6 +14,7 @@ const io=socketio(server);
 
 module.exports={io,app};
 
+// socketio connection handle
 io.on("connection",(socket)=>{
     console.info("A Clint Connected.")
 })
